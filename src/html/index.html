@@ -4,16 +4,73 @@
     <title>Bootstrap 4 Layout</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Syne+Tactile&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- Content starts here -->
-    <p>Testing: 1, 2, 3, 4</p>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: #CCC;">
+        <a class="navbar-brand" href="#">Pirate Cove</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <nav class="navbar active" style="font-weight: bold;"></nav>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" target="_self">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="story.htm" target="_self">Story</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="jumbotron" style="text-align: center; font-family: 'Syne Tactile', cursive;">
+        <p class="lead">The Ship's Log</p>
+        <p class="lead">A diary kept by Capt. Crit 'Red Beard' McGillicutty</p>
+        <p class="lead">
+        </p>
+      </div>
+
+    <section>
+      <div class="row">
+        <div class="col-sm-6 col-lg-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="img/pirate.jpg" alt="" width="150" height="150" ;>
+              <p class="card-text">By Crit McGillicutty</p>
+              <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><i>Island Breeze Tribune</i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">It was a dark and stormy night</h5>
+              <p class="card-text" style="font-family: 'Handlee', cursive;">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+
+                Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
+                
+                Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+   
+    <footer class="col-sm-12 col-lg-12" id="footer" style="background-color: rgb(255, 255, 255); padding: 5px; text-align: center;">A class project by Drew Van Chau</footer>
+    
 
     <!-- Closing scripts here -->
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
+ 
 </html>

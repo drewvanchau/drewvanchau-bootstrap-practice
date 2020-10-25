@@ -6,7 +6,38 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+$theme-colors: (
+  "primary": #3d3d3d
+);
+
+$body-bg: rgb(209, 204, 204);
+
+$body-color: #000000;
+
+$link-hover-color: grey;
+
+$font-family-sans-serif: "Helvetica Neue";
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+    background: url(../img/pirate-ship.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.navbar {
+a:link {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+:active {
+    font-weight: bold;
+}
+}
+
 
 // Import partials here
